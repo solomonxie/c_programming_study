@@ -1,2 +1,2 @@
-# c_programming_study
+# C Programming Study
 Learning C/C++ programming.
