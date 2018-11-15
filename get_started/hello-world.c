@@ -6,7 +6,7 @@
  *         $ ./a.out
  * */
 
-/* Include the Standard I/O library */
+/* Import the Standard I/O library */
 #include <stdio.h>
 
 /* Main entry function */
