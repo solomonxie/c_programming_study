@@ -6,14 +6,14 @@
  *         $ ./a.out
  * */
 
-/* Import the Standard I/O library */
+// Import the Standard I/O library
 #include <stdio.h>
 
-/* Main entry function */
+// Main entry function
 int main(){
 
     printf("Hello, world!");
 
-    /* Return is a must to the function */ 
+    // Return is a must to the function
     return 0;
 }
