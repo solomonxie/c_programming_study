@@ -14,8 +14,9 @@
 // Main entry function
 int main(){
 
+    // "printf()" is defined in the library "stdio.h".
     printf("Hello, world!");
 
-    // Return is a must to the function
+    // "return 0" is to exit the whole program
     return 0;
 }
