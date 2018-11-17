@@ -53,12 +53,26 @@ void pointer_arithmetics(){
     printf("%p\n\n", ptr);
 }
 
+void pointers_list(){
+    int arr[] = {10, 20, 30};
+
+    int *ptr[3];
+    ptr[0] = &arr[0];
+    ptr[1] = &arr[1];
+    ptr[2] = &arr[2];
+
+    printf("%d, %p\n", arr[0], ptr[0]); 
+    printf("%d, %p\n", arr[1], ptr[1]); 
+    printf("%d, %p\n", arr[2], ptr[2]); 
+
+}
 
 int main(){
 
     //pointer_basics();
     //null_pointer();
-    pointer_arithmetics();
+    //pointer_arithmetics();
+    pointers_list();
 
     return 0;
 }
